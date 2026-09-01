@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Streamlit secrets & local config
+.streamlit/secrets.toml
+
+# Environment variables & Local database
+.env
+*.db
+chat_history.db
+
+# GCP Service Account Keys (Secrets)
+*.json
+serviceAccountKey.json
